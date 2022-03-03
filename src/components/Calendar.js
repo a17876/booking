@@ -10,7 +10,6 @@ class Calendar extends Component {
         startToday: 'new test',
       };
     }
-    
 
     monthView(){
         var value = 31
