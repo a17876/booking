@@ -12,9 +12,10 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <div className="Container">
-        <FloorPlan></FloorPlan>
         <Calendar></Calendar>
         <Booking></Booking>
+        <FloorPlan></FloorPlan>
+
       </div>
 
     </div>
