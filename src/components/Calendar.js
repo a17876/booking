@@ -2,6 +2,8 @@ import '../calendar.css';
 import {Component} from 'react';
 import {isWeekend, getDayName} from "./date-getter.js";
 
+//some changes
+
 class Calendar extends Component {
     constructor(props){
       super(props);
