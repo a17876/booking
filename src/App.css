@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira&family=Sedgwick+Ave&display=swap');
 body{
   font-family: 'Saira', sans-serif;
+  color:#003C71;
 }
+
+
 .Nav {
   padding: 0.5rem;
   display: flex;
@@ -50,12 +53,15 @@ body{
   grid-template-rows: 100px 400px 300px;
 }
 .FloorPlan{
-  background-color: plum;
+  background-color: white;
   grid-column:2/3;
   grid-row: 2/4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .Booking{
-  background-color: aquamarine;
+  background-color: white;
   font-weight: 900;
   padding: 30px;
   grid-column:2/3;
@@ -133,4 +139,7 @@ body{
 #list{
   width: 100px;
   height:20px;
+}
+.floorplanImg{
+  width:100px;
 }
